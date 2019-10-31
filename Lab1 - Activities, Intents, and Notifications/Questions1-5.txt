@@ -1,0 +1,9 @@
+1. MainActivity. No, because that is the class we are in when the notifications get displayed is MainActivity. No, they don't show any content, I think.
+
+2. onPause, onSaveInstanceState, onStop, onCreate w/ state, onStart.
+
+3. viewHierarchyState, and fragments. I guess the first one represents the lifecycle order so the device knows the order in which to do things.
+
+4. It was re created because onCreate w/ state showed up.
+
+5. Main screen: name was deleted, but the bottom text changed to the website url so I think that the app was destroyed and then created again. Notifcations: The app was paused, saved, and then stopped. It was then create w/o a state which implies it was the first instance of the app opening.

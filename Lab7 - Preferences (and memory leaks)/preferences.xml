@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_time_24"
+        android:summaryOff="12hr Time"
+        android:summaryOn="24hr Time"
+        android:title="@string/time_24" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="check_partial_seconds"
+        android:summaryOff="No partial seconds"
+        android:summaryOn="Yes partial seconds"
+        android:title="@string/partial_seconds" />
+    <ListPreference
+        android:defaultValue="None"
+        android:entries="@array/list_pref"
+        android:entryValues="@array/list_pref_values"
+        android:key="clocks"
+        android:summary="Preference = %s"
+        android:title="Clock preferences" />
+</PreferenceScreen>
