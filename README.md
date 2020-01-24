@@ -11,7 +11,7 @@ Lab2: Created a nav drawer with pictures that can display the picture you tap.
 
 Lab3: Made an expandable list view that held info about the make and model of certain cars, along with their pictures. The data is retrieved by looking through a folder for specific pictures and info. The picutres are not included in github, because it made the project too large.
 
-Lab4: Created a dynamic seven set display that uses a canvas.
+Lab4: Created a dynamic seven segment display that uses a canvas.
 
 Lab5: Created an analog clock that uses an animation timer and uses observers.
 
